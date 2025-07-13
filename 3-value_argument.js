@@ -1,11 +1,9 @@
-const parameter = process.parameter.slice(2);
+const args = process.argv.slice(2);
 
-if (parameter[0] === undefined) {
+if (args[0] === undefined) {
   console.log('No argument');
-} else if (parameter[1] === undefined) {
-  console.log('HBTN');
-} else if (parameter[2] === undefined) {
-  console.log('HBTN' + ' cool');
+} else if (args[1] === undefined) {
+  console.log(args[0]);
 } else {
-  console.log('two argument found');
+  console.log(args[0] + ' ' + args[1]);
 }

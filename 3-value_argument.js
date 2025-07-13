@@ -6,6 +6,4 @@ if (args[0] === undefined) {
   console.log('HBTN');
 } else if (args[2] === undefined) {
   console.log('HBTN COOL');
-} else {
-  console.log('HBTN COOL');
 }

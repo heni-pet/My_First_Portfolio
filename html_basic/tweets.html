@@ -2,19 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Base Index</title>
+    <title>Tweets Page</title>
 </head>
 <body>
-    <p>Hello, World!</p>
-    <p> Hello world! This is a test tweet.</p>
-    <nav> 
+    <header>
         <ul>
-            <li> <a href="https://twitter.com/nytimes/status/1108952720952614912">New York Times Tweet</a></li>
-            <li> <a href="base_index.html">Base Index</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
         </ul>
-    </nav>
-    <blockquote>
-         class="twitter-tweet"><p lang="en" dir="ltr">An American engineer who controls a network of dams that dictates the fate of millions said &quot;it was not designed to handle&quot; the extreme flooding brought by climate change <a href="https://t.co/Cw626fdOde">https://t.co/Cw626fdOde</a></p>&mdash; The New York Times (@nytimes) <a href="https://twitter.com/nytimes/status/1108952720952614912?ref_src=twsrc%5Etfw">March 22, 2019</a></blockquote> 
-         
+    </header>
+
+    <main>
+        <article>
+            <h1>Embedded Tweet</h1>
+            <p>Hello, World!</p>
+            <p>Hello world! This is a test tweet.</p>
+
+            <!-- Embedded Tweet from New York Times -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">An American engineer who controls a network of dams that dictates the fate of millions said "it was not designed to handle" the extreme flooding brought by climate change 
+                    <a href="https://t.co/Cw626fdOde">https://t.co/Cw626fdOde</a>
+                </p>&mdash; The New York Times (@nytimes)
+                <a href="https://twitter.com/nytimes/status/1108952720952614912?ref_src=twsrc%5Etfw">March 22, 2019</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Made by Henok Hadush - <a href="site.html" target="_blank">here</a></p>
+    </footer>
 </body>
 </html>
